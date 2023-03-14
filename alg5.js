@@ -2,7 +2,7 @@
   let first_value = new Array()
  first_value = [[],[]]
 
-let i_2 = 1;
+   let i_2 = 0;
    let i = 0;
     let x = prompt("How many elements you want to add to array");
 while(i < x){
@@ -13,8 +13,8 @@ while(i_2 < x){
 first_value[1][i_2] = prompt("Enter that you want to add to array 2s");
 i_2++;
 }
-alert(first_value[0] + " " + "1s")
- alert(first_value[1] + " " + "2s")
+alert(first_value[0] + " " + "This code show result from first value")
+ alert(first_value[1] + " " + "This code show result from second value")
 
     let minInFirstArray = Math.min.apply(null,first_value[0])
        let minInSecondArray = Math.min.apply(null,first_value[1])
